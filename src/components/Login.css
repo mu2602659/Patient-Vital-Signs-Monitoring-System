@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+
+
+body {
+  margin: 0;
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.login-container {
+
+  background-image: url('../../public/images/bgg.jpg');
+  background-size: cover; /* Cover the entire container with the background image */
+  
+}
+
+.login-title {
+  width: 120%;
+  padding: 20px;
+  color: #fff; /* Text color */
+}
+
+.login-form-container {
+  width: 140%;
+  background-color: #fffafa; /* Background color with opacity */
+  border-radius: 15px;
+  padding: 30px; /* Add padding */
+}
+
+
+.login-form {
+  padding: 20px;
+}
+.forgot-password,
+.forgot-password a {
+  text-align: left;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: purple;
+}
+.btn-custom-purple {
+  color: #fff;
+  background-color: purple;
+  border-color: purple;
+}
+
+.btn-custom-purple:hover {
+  color: #fff;
+  background-color: #6a1b9a; /* darker shade of purple */
+  border-color: #6a1b9a; /* darker shade of purple */
+}

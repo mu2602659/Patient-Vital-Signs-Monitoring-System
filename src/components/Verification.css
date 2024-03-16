@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+
+
+body {
+  margin: 0;
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.verification-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover; /* Ensure the background image covers the entire container */
+  background-position: center; /* Center the background image */
+  background-image: url('../../public/images/bgg.jpg');
+}
+
+.form-container {
+  background-color: #fffafa; /* Background color for the form */
+  border-radius: 10px; /* Border radius for the form */
+  padding: 50px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for a nicer effect */
+}
+
+.form-control {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.btn-custom-purple {
+  width: 100%; /* Button takes up full width */
+  max-width: 212px; /* Optional: Set max-width to prevent button from becoming too wide */
+  margin: 0 auto; /* Center the button horizontally */
+  background-color: purple;
+  color: #ffffff;
+  border: none;
+  border-radius: 7px;
+  padding: 10px;
+  cursor: pointer;
+}
+.btn-custom-purple:hover {
+  color: #fff;
+  background-color: #6a1b9a; /* darker shade of purple */
+  border-color: #6a1b9a; /* darker shade of purple */
+}

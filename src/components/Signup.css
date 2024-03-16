@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+
+
+body {
+  margin: 0;
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.signup-container {
+  height: 120vh;
+  background-image: url('../../public/images/bgg.jpg');
+  background-size: cover;
+  padding: 20px;
+}
+
+.signup-title {
+  width: 120%;
+  padding: 20px;
+  color: #fff;
+}
+
+.signup-form-container {
+  background-color: #fffafa; /* Background color with opacity */
+  border-radius: 15px;
+  margin-top: 5rem;
+  padding: 20px; /* Add padding */
+}
+
+
+
+
+.form-inline {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group {
+  margin-right: 3px;
+}
+.signup a {
+  color: purple;
+}
+.signup,
+.signup a {
+  text-align: left;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+.btn-custom-purple {
+  color: #fff;
+  background-color: purple;
+  border-color: purple;
+}
+
+.btn-custom-purple:hover {
+  color: #fff;
+  background-color: #6a1b9a; /* darker shade of purple */
+  border-color: #6a1b9a; /* darker shade of purple */
+}

@@ -1,7 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+
+
+body {
+  margin: 0;
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -25,7 +34,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: purple;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +44,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn-custom-purple {
+  color: #fff;
+  background-color: purple;
+  border-color: purple;
+}
+
+.btn-custom-purple:hover {
+  color: #fff;
+  background-color: #6a1b9a; /* darker shade of purple */
+  border-color: #6a1b9a; /* darker shade of purple */
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: left;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: purple;
+}
+.signup,
+.signup a {
+  text-align: left;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+.signup a {
+  color: purple;
 }
